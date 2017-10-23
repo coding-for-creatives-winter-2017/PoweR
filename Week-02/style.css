@@ -4,10 +4,17 @@
 			color: black;
 			background-color: rgb(135,206,250);
 			}
+
 		h1 {
 			font-size: 85px;
 			font-family: serif;
 		}
+		<div class="row">
+ 			<div class="col-md-4">.col-md-4</div>
+ 				<img src="Flipping-Through.gif">
+  			<div class="col-md-4">.col-md-4</div>
+  			<div class="col-md-4">.col-md-4</div>
+		</div>
 		#Entire {
 			margin: 20px 20px 20px 20px;
 
@@ -18,12 +25,13 @@
 
 		#info {
 			background-color: white;
-			padding-bottom: 60px;
+			padding-bottom: 200px;
 			padding-left: 20px;
 			padding-top: 20px;
 			padding-right: 20px;
 			color: black;
 			margin: 10px;
+			border-radius: 25px;
 		}		
 		#portrait {
 			float: left;
