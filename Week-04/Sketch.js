@@ -4,7 +4,6 @@ var star;
 function setup(){
   createCanvas(710, 400);
   pg = createGraphics(400, 250);
-  star = createGraphics(0, 0, 30, 70, 5)
 }
 
 function draw(){
