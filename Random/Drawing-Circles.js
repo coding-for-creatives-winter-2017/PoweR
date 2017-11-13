@@ -14,7 +14,7 @@ function draw() {
 
 	var d = dist(windowWidth/100, windowHeight/100, mouseX, mouseY);
 
-  	fill (random(0, 139), random(123, 139))
+  	fill (random(0, 139), random(123, 139));
   	ellipse (mouseX, mouseY, 50, 50);
 
  	 x = x + xspeed;
