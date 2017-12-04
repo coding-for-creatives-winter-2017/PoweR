@@ -1,0 +1,141 @@
+body {
+	font-family: "futura";
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	font-weight: lighter;
+	}
+
+h1 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+	}
+
+h2 {
+	font-weight: thick;
+	font-size: 20px;
+	text-align: left;
+	color: rgb(234, 31, 50);
+	}
+
+h3 {
+	font-weight: bolder;
+	font-size: 50px;
+	}
+h4 {
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: left;
+	color: rgb(206, 245, 100);
+	}
+h5 {
+	color: rgb(239, 56, 166);
+	font-weight: thick;
+	font-size: 20px;
+	text-align: right;
+}
+
+
+.col-sm-2 {
+	float: right;
+	text-align: right;
+	}
+
+#Entire {
+		margin: 20px 20px 20px 20px;
+	}
+
+.votinglist {
+		margin-left: 250px;
+		padding-bottom: 200px;
+	}
+
+.column {
+    	float: left;
+    	width: 20%;
+	}
+
+.list {
+		font-weight: thin;
+		font-size: 10px;
+		width: 5px;
+	}
+
+.logo-box {
+		text-align: center;
+	}
+
+#logo {
+		width: 500px;
+	}
+#logo-title {
+		width: 800px;
+		background-color: black;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-right:10px;
+		border-radius: 10px;
+	}
+
+.song-title {
+	float:left;
+	text-align: left;
+	}
+
+.song-votes {
+	text-align: right;
+	margin-right: 100px;
+	}
+
+.progress-outer{
+    background: #F7F73A;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 0  5px rgba(209, 219, 231,0.7);
+	}
+.progress{
+    height: 27px;
+    margin: 0;
+    overflow: visible;
+    border-radius: 5px;
+    background: #eaedf3;
+    box-shadow: inset 0 5px  5px rgba(244, 245, 250,0.9);
+	}
+
+.progress .progress-bar{
+    border-radius: 5px;
+    background-color: rgb(46, 68, 185);
+	}
+
+.progress .progress-value{
+    position: within;
+    left: -45px;
+    top: 4px;
+    font-size: 14px;
+    font-weight: thin;
+    color: black;
+    letter-spacing: 2px;
+	}
+.progress-bar.active{
+    animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 2s;
+	}
+@-webkit-keyframes animate-positive{
+    0% { width: 0%; }
+	}
+@keyframes animate-positive {
+    0% { width: 0%; }
+	}
+
+
+
+
+
+
+
+
+
+
+

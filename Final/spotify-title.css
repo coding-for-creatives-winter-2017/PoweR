@@ -1,0 +1,43 @@
+body {
+	font-family: "futura";
+	font-size: 30px;
+	color: rgb(151, 151, 151);
+	background-color: black;
+	font-weight: lighter;
+	}
+
+
+#logo-title {
+	width: 600px;
+	background-color: black;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right:10px;
+	border-radius: 10px;
+	}
+
+.logo-box {
+		text-align: center;
+	}
+
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: black;
+	box-shadow: black 20px 20px 20px;
+	color: rgb(151, 151, 151)
+}
+
+.panel-body {
+	background-color: black;
+	color-interpolation: rgb(0, 0, 0);
+	border-width: 800px;
+}	
+
+p {
+	text-align: center;
+	color: #5ff651;
+}
